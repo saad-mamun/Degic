@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Presentation from './components/Presentation';
+import Slider from './components/Slider';
 
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
      <Navbar />
      <Hero/>
      <Presentation/>
+     <Slider/>
     </>
   );
 }
