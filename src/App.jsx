@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Presentation from './components/Presentation';
 import Slider from './components/Slider';
 import Video from './components/video';
+import Time from './components/Time';
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
      <Presentation/>
      <Slider/>
      <Video/>
+     <Time/>
     </>
   );
 }
