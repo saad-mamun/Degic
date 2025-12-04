@@ -42,7 +42,7 @@ const Navbar = () => {
           ) : (
             <>
               <Typography sx={{ flexGrow: 1 }}>
-                <img src="/public/degic.png" alt="Degic" />
+                <img src="/degic.png" alt="Degic" />
               </Typography>
               {menuItems.map((item, index) => (
                 <Button color="inherit" key={index}>
