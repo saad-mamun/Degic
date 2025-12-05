@@ -28,11 +28,11 @@ const Blog = () => {
   return (
     <section>
       <div className="container mx-auto py-5 md:py-14 lg:py-20 px-5">
-        <div className="space-y-4">
+        <div className="space-y-3">
           <h1 className="text-xl md:text-3xl lg:text-4xl font-semibold">
             Get more from our blog
           </h1>
-          <div className="flex items-end justify-between">
+          <div className="flex flex-col md:flex-row items-start md:items-end justify-between gap-3">
             <p className="text-gray-500 max-w-[440px]">
               There are a lot of different components that will help you create
               the perfect look for your project
