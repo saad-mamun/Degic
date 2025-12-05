@@ -5,6 +5,7 @@ import Presentation from './components/Presentation';
 import Slider from './components/Slider';
 import Video from './components/Videos';
 import Time from './components/Time';
+import Boom from './components/Boom';
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
      <Slider/>
      <Video/>
      <Time/>
+     <Boom/>
     </>
   );
 }

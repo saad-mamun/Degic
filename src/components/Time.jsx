@@ -1,5 +1,8 @@
 import React from "react";
 import CheckCircleOutlinedIcon from "@mui/icons-material/CheckCircleOutlined";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+
+
 const Time = () => {
   return (
     <section className="">
@@ -34,6 +37,12 @@ const Time = () => {
                 Make more time for the work
               </p>
             </div>
+            <div>
+              <button className="bg-[#5F62E2] hover:bg-blue-700 text-white font-semibold py-3 px-6 transition duration-300 ease-in-out rounded-xl">
+                Get Started
+                <ArrowForwardIcon />
+              </button>
+            </div>
           </div>
         </div>
 
@@ -66,6 +75,12 @@ const Time = () => {
                 <p className="text-black text-base md:text-[18px] lg:text-[21px] font-sm">
                   Make more time for the work
                 </p>
+              </div>
+              <div>
+                <button className="bg-[#5F62E226] text-[#5F62E2] font-semibold px-6 py-3 transition duration-300 rounded-lg">
+                  Learn More
+                  <ArrowForwardIcon />
+                </button>
               </div>
             </div>
           </div>
