@@ -25,9 +25,9 @@ const Presentation = () => {
   ];
 
   const socialLinks = [
-    {link: "/f.png"},
-    {link: "/i.png"},
-    {link: "t.png"},
+    {img: "/f.png", links: "https://www.facebook.com/TTP2660/"},
+    {img: "/i.png" , links: "https://www.instagram.com/litonalmamun9118/"},
+    {img: "/t.png", links: "https://x.com/MdLiton65961236"},
   ]
 
   return (
@@ -73,8 +73,8 @@ const Presentation = () => {
           <div className="flex justify-center lg:justify-start gap-4 mt-6 items-center">
             {
                 socialLinks.map((social, index)=>(
-                    <a key={index} href="">
-                        <img src={social.link} alt="" />
+                    <a key={index} href={social.links}>
+                        <img src={social.img} alt="Social Icon" />
                     </a>
                 ))
             }
