@@ -81,9 +81,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <hr className="text-white" />
+      <hr className="text-gray-600" />
       <div className='flex items-center justify-between px-4'>
-        <h3 className='text-white' >Copyright Degic © {new Date().getFullYear()} </h3>
+        <h3 className='text-gray-400 text-[14px] md:text-base ' >Copyright Degic © {new Date().getFullYear()} </h3>
         <div className='flex'>
            {
             SocialLinks.map(((item, index)=> (
